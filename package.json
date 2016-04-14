@@ -1,0 +1,36 @@
+{
+  "name": "passport-office365",
+  "version": "1.0.0",
+  "description": "Passport strategy for authenticating Office365 apps, using the discovery service",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint lib && mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATGardner/passport-office365.git"
+  },
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "passport",
+    "office365"
+  ],
+  "author": "Noam Gal <ATGardner@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ATGardner/passport-office365/issues"
+  },
+  "homepage": "https://github.com/ATGardner/passport-office365#readme",
+  "devDependencies": {
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  },
+  "dependencies": {
+    "node-fetch": "^1.5.1",
+    "passport": "^0.3.2",
+    "passport-azure-oauth2": "^0.1.0",
+    "passport-oauth2-refresh": "^1.0.0"
+  }
+}
