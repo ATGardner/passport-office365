@@ -2,7 +2,7 @@
   "name": "passport-office365",
   "version": "1.0.0",
   "description": "Passport strategy for authenticating Office365 apps, using the discovery service",
-  "main": "index.js",
+  "main": "./lib",
   "scripts": {
     "test": "jshint lib && mocha -R spec"
   },
