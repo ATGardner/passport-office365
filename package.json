@@ -28,9 +28,12 @@
     "sinon": "^1.17.3"
   },
   "dependencies": {
-    "node-fetch": "^1.5.1",
     "passport": "^0.3.2",
     "passport-azure-oauth2": "^0.1.0",
     "passport-oauth2-refresh": "^1.0.0"
+  },
+  "jshintConfig": {
+    "esversion": 6,
+    "node": true
   }
 }
