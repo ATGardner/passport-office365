@@ -28,7 +28,6 @@
     "sinon": "^1.17.3"
   },
   "dependencies": {
-    "passport": "^0.3.2",
     "passport-azure-oauth2": "^0.1.0",
     "passport-oauth2-refresh": "^1.0.0"
   },
