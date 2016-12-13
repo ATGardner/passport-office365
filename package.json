@@ -1,6 +1,6 @@
 {
   "name": "passport-office365",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Passport strategy for authenticating Office365 apps, using the discovery service",
   "main": "./lib",
   "scripts": {
